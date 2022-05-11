@@ -1,0 +1,11 @@
+// código para testar a rota POST de atendimentos
+POST http://localhost:3000/atendimentos HTTP/1.1
+content-type: application/json
+
+{
+    "cliente": "Lorena",
+    "pet": "Simba",
+    "servico": "Banho",
+    "status": "Agendado",
+    "observacoes": "Ele é brabo!"
+}

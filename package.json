@@ -1,0 +1,28 @@
+{
+  "name": "api-node-example",
+  "version": "1.0.0",
+  "description": "seguindo o exemplo do roteiro",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lobug5/api-node-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lobug5/api-node-example/issues"
+  },
+  "homepage": "https://github.com/lobug5/api-node-example#readme",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
