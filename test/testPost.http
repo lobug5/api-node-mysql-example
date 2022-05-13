@@ -3,9 +3,10 @@ POST http://localhost:3000/atendimentos HTTP/1.1
 content-type: application/json
 
 {
-    "cliente": "Lorena",
+    "cliente": "Lore",
     "pet": "Simba",
     "servico": "Banho",
+    "data": "12/05/2022",
     "status": "Agendado",
     "observacoes": "Ele é brabo!"
 }

@@ -9,7 +9,7 @@ module.exports = app => {
   app.post('/atendimentos', (req, res) => {
     const atendimento = req.body
     // passando para o model como parâmetro da função adiciona o que foi recebido pelo body da requisição
-    Atendimento.adiciona(atendimento)
+    Atendimento.adiciona(atendimento, res)
     // resposta que sera recebida caso funcione a requisição
     res.send('Post atendimento')
   })
