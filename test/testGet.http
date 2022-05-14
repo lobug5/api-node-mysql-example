@@ -1,2 +1,2 @@
 // código para testar a rota GET de atendimentos
-http://localhost:3000/atendimentos
+http://localhost:3000/atendimentos/1

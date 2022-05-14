@@ -5,7 +5,7 @@ const conexao = mysql.createConnection({
   host:"localhost",
   port: "3306",
   user: "root",
-  password: "admin",
+  password: "lorena123",
   database: "agenda-petshop"
 })
 //exportando o modulo de conexão para ser utilizado em outras paginas
